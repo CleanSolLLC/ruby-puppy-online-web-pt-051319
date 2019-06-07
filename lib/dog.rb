@@ -9,12 +9,12 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
+    binding.pry
   end
 
 def self.all
-  @@all.each do |n|
-    binding.pry
-    puts "#{n}"
+  @@all.select{|n| n=~/[name=]\w/}
+  binding.pry
   end
 end
 
