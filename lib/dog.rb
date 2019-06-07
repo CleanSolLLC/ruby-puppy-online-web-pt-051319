@@ -15,10 +15,10 @@ class Dog
   #  @@all.each do |n|
   #    puts n
   #  end
-  binding.pry
-  end
+  #end
 
-  def self.clear_all
-    @@all.clear
-  end
+  #def self.clear_all
+  #  @@all.clear
+  #end
+    binding.pry
 end
