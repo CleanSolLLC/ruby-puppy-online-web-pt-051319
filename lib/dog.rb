@@ -12,7 +12,7 @@ class Dog
   end
 
   def self.all
-    @@all.split("")
+    @@all.split()
     binding.pry
   end
 
