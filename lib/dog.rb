@@ -14,7 +14,6 @@ class Dog
 
 def self.all
   @@all.each{|n| puts n}
-  binding.pry
 end
 
   def self.clear_all
