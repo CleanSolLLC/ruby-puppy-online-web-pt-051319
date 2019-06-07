@@ -16,6 +16,7 @@ def self.all
   @@all.each do |n|
     binding.pry
     puts "#{n}"
+  end
 end
 
   def self.clear_all
