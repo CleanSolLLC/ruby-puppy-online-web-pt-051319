@@ -13,6 +13,7 @@ class Dog
 
   def self.all
     @@all.each do |n|
+      binding.pry
       puts n
     end
   end
