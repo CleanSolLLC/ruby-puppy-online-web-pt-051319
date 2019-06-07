@@ -9,12 +9,13 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
+    binding.pry
   end
 
   def self.all
-    @@all.each do |n|
-      puts n
-      binding.pry
+    dog_array = @@all
+    dog_array.each do |n|
+      puts "#{n}"
     end
   end
 
