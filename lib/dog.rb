@@ -12,7 +12,7 @@ class Dog
   end
 
   def self.all
-    new_array = @@all.to_s
+    new_array = @@all
     binding.pry
   end
 
