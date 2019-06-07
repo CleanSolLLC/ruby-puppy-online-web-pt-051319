@@ -12,6 +12,12 @@ class Dog
     binding.pry
   end
 
+def self.all
+  @@all.each do |n|
+    binding.pry
+    puts "#{n}"
+end
+
   def self.clear_all
     @@all.clear
   end
