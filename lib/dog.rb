@@ -8,13 +8,12 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@all << name
   end
 
   def self.all
-    dog_array = @@all
-    dog_array.each do |n|
-      puts "#{n}"
+    @all.each do |n|
+      puts n
     end
   end
 
