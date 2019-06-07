@@ -12,11 +12,11 @@ class Dog
     binding.pry
   end
 
-  #def self.all
-  #  @@all.each do |n|
-  #    puts n
-  #  end
-  #end
+  def self.all
+    @@all.each do |n|
+      puts n
+    end
+  end
 
   def self.clear_all
     @@all.clear
