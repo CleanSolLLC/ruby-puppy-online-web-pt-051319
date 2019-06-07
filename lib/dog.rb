@@ -13,7 +13,8 @@ class Dog
   end
 
 def self.all
-  @@all.each{|n| puts n}
+  @@all.each{|dog| puts dog.name}
+  binding.pry
 end
 
   def self.clear_all
