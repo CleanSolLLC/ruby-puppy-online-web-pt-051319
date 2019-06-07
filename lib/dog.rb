@@ -12,10 +12,10 @@ class Dog
     binding.pry
   end
 
-#def self.all
-#  @@all.select{|n| n=~/[name=]\w/}
-#  binding.pry
-#end
+def self.all
+  @@all.each{|n| puts n}
+  binding.pry
+end
 
   def self.clear_all
     @@all.clear
